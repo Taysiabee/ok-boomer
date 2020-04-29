@@ -1,0 +1,218 @@
+@import 'reset';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffbccb;
+	padding: 5%;
+
+	.first-section{
+		position: relative;
+		margin-bottom: 5%;
+		.tv{
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 5%;
+		}
+		.sixties-video{
+			position: absolute;
+			left: 29%;
+			width: 33%;
+			top: 6%;
+			border-radius: 28px;
+		}
+		.six{
+			position: relative;
+			text-align: center;
+			margin-top: 10%;
+			.twist{
+				width: 8%;
+				position: absolute;
+				bottom: 20%;
+				left: 45%;
+
+			}
+			.twist:hover{
+				 transition: 0.70s;
+				transform: rotate(720deg);
+			}
+
+			.chubby{
+				width: 15%;
+			}
+			
+		}
+	}
+	.para-one{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		font-weight: bold;
+		font-size: 1.5vw;
+		p{
+			text-align: center;
+			font-family: 'Chicle', cursive;
+			font-size: 2vw;
+			line-height: 30px;
+
+		}
+
+		button{
+			background-color: #ffbccb;
+			color: #ffbccb;
+			border-color: #ffbccb;
+		}
+	}
+
+
+	.second-section{
+		position: relative;
+		.tv-two{
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 10%;
+		}	
+		.seventies-video{
+			position: absolute;
+			left: 29%;
+			width: 33%;
+			top: 5%;
+			border-radius: 28px;
+		}
+		.seven{
+			position: relative;
+			text-align: center;
+			margin-top: 10%;
+			
+			.alive{
+				width: 8%;
+				position: absolute;
+				bottom: 20%;
+				left: 45%;
+			}
+			.beegees{
+				width: 15%;
+			}
+		}
+	}
+
+	.third-section{
+		position: relative;
+		.tv-three{
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 10%;
+		}	
+		.eighties-video{
+			position: absolute;
+			left: 27%;
+			width: 37%;
+			top: 6%;
+			border-radius: 32px;
+		}
+		.eight{
+			position: relative;
+			text-align: center;
+			margin-top: 10%;
+			
+			.beat-it{
+				width: 8%;
+				position: absolute;
+				bottom: -8%;
+				left: 48%;
+			}
+			.michael{
+				width: 15%;
+			}
+		}
+	}
+
+
+	.fourth-section{
+		position: relative;
+		.tv-four{
+			width: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 10%;
+		}	
+		.ninties-video{
+			position: absolute;
+			left: 33%;
+			width: 35%;
+			top: 6%;
+		}
+		.nine{
+			position: relative;
+			text-align: center;
+			margin-top: 10%;
+			
+			.one-more{
+				width: 8%;
+				position: absolute;
+				bottom: -8%;
+				left: 48%;
+			}
+			.britney{
+				width: 15%;
+			}
+		}
+	}
+	
+	.fifth-section{
+		position: relative;
+		.tv-five{
+			width: 49%;
+			display: block;
+			margin: 0 auto;
+			margin-top: 10%;
+		}	
+		.ohs-video{
+			position: absolute;
+			left: 25.6%;
+			width: 49%;
+			top: 3.6%;;
+		}
+		.tens{
+			position: relative;
+			text-align: center;
+			margin-top: 10%;
+			
+			.umbrella{
+				width: 8%;
+				position: absolute;
+				bottom: -8%;
+				left: 48%;
+			}
+			.rihanna{
+				width: 15%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
