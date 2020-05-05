@@ -40,16 +40,18 @@ document.querySelector('.pause').addEventListener('click', function() {
 
 let sixtiesVideo = document.querySelector('.sixties-video')
 let audio = document.querySelector('.song');
- sixtiesVideo.addEventListener("mouseenter", function(event){
+ sixtiesVideo.addEventListener("mouseenter", function(){
  	audio.play()
  	console.log("audio")
  })
 
-  sixtiesVideo.addEventListener("mouseleave", function(event){
+  sixtiesVideo.addEventListener("mouseleave", function(){
   	let audio = document.querySelector('.song');
  	audio.pause()
  	console.log("audio")
  })
+
+  
 
 
 
@@ -92,68 +94,33 @@ let tunes = document.querySelector('.bee');
 
 
 
-document.querySelector('.play').addEventListener('click', function() {
-	let hit = document.querySelector('.mike');
-	hit.play()
+// document.querySelector('.play').addEventListener('click', function() {
+// 	let hit = document.querySelector('.mike');
+// 	hit.play()
 	
-})
+// })
 
-document.querySelector('.pause').addEventListener('click', function() {
-	let hit = document.querySelector('.mike');
-	hit.pause()
+// document.querySelector('.pause').addEventListener('click', function() {
+// 	let hit = document.querySelector('.mike');
+// 	hit.pause()
 	
 
-})
+// })
 
-let eightiesVideo = document.querySelector('.eighties-video')
-let hit = document.querySelector('.mike');
- eightiesVideo.addEventListener("mouseenter", function(event){
- 	hit.play()
+// let eightiesVideo = document.querySelector('.eighties-video')
+// let hit = document.querySelector('.mike');
+//  eightiesVideo.addEventListener("mouseenter", function(event){
+//  	hit.play()
 
  	
- })
+//  })
 
-  eightiesVideo.addEventListener("mouseleave", function(event){
-  	let hit = document.querySelector('.mike');
- 	hit.pause()
-
- 	
- })
-
-
-
-
-
-
-
-
-
-
-document.querySelector('.play').addEventListener('click', function() {
-	let pop = document.querySelector('.brit');
-	pop.play()
-	
-})
-
-document.querySelector('.pause').addEventListener('click', function() {
-	let pop = document.querySelector('.brit');
-	pop.pause()
-	
-
-})
-
-let nintiesVideo = document.querySelector('.ninties-video')
-let pop = document.querySelector('.brit');
- nintiesVideo.addEventListener("mouseenter", function(event){
- 	pop.play()
- })
-
-  nintiesVideo.addEventListener("mouseleave", function(event){
-  	let pop = document.querySelector('.brit');
- 	pop.pause()
+//   eightiesVideo.addEventListener("mouseleave", function(event){
+//   	let hit = document.querySelector('.mike');
+//  	hit.pause()
 
  	
- })
+//  })
 
 
 
@@ -164,33 +131,68 @@ let pop = document.querySelector('.brit');
 
 
 
-
-
-  document.querySelector('.play').addEventListener('click', function() {
-	let hov = document.querySelector('.rih');
-	hov.play()
+// document.querySelector('.play').addEventListener('click', function() {
+// 	let pop = document.querySelector('.brit');
+// 	pop.play()
 	
-	
-})
+// })
 
-document.querySelector('.pause').addEventListener('click', function() {
-	let hov = document.querySelector('.rih');
-	hov.pause()
+// document.querySelector('.pause').addEventListener('click', function() {
+// 	let pop = document.querySelector('.brit');
+// 	pop.pause()
 	
 
-})
+// })
 
-let ohsVideo = document.querySelector('.ohs-video')
-let hov = document.querySelector('.rih');
- ohsVideo.addEventListener("mouseenter", function(event){
- 	hov.play()
+// let nintiesVideo = document.querySelector('.ninties-video')
+// let pop = document.querySelector('.brit');
+//  nintiesVideo.addEventListener("mouseenter", function(event){
+//  	pop.play()
+//  })
+
+//   nintiesVideo.addEventListener("mouseleave", function(event){
+//   	let pop = document.querySelector('.brit');
+//  	pop.pause()
+
  	
- })
+//  })
 
-  ohsVideo.addEventListener("mouseleave", function(event){
-  	let hov = document.querySelector('.rih');
- 	hov.pause()
+
+
+
+
+
+
+
+
+
+
+
+//   document.querySelector('.play').addEventListener('click', function() {
+// 	let hov = document.querySelector('.rih');
+// 	hov.play()
+	
+	
+// })
+
+// document.querySelector('.pause').addEventListener('click', function() {
+// 	let hov = document.querySelector('.rih');
+// 	hov.pause()
+	
+
+// })
+
+// let ohsVideo = document.querySelector('.ohs-video')
+// let hov = document.querySelector('.rih');
+//  ohsVideo.addEventListener("mouseenter", function(event){
+//  	hov.play()
  	
- })
+//  })
+
+//   ohsVideo.addEventListener("mouseleave", function(event){
+//   	let hov = document.querySelector('.rih');
+//  	hov.pause()
+ 	
+//  })
 
 
