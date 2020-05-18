@@ -10,7 +10,7 @@ body {
 
 	.sixties{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		.sec-one{
 			position: relative;	
 			.decade-six{
@@ -20,10 +20,12 @@ body {
 				font-weight: bold;
 			}
 			.twist-record{
-				width: 50%;
-				bottom: 20%;
-				left: 17%;
+				width: 30%;
+				left: -5%;
+				top: 50%;
 				position: absolute;
+				transform: translateX(-205px);
+
 			}
 			.twist-record:hover{
 				 transition: 0.70s;
@@ -41,17 +43,18 @@ body {
 
 			.sixties-video{
 				position: absolute;
-				left: 21%;
-				width: 45%;
-				top: 20%;
+				left: 20%;
+				width: 48%;
+				top: 19%;
 				border-radius: 28px;
+				height: 64%;
 			}
 		}
 	}
 
 	.seventies{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		margin-top: 40%;
 		.sec-one{
 			position: relative;	
@@ -62,10 +65,12 @@ body {
 				font-weight: bold;
 			}
 			.alive-record{
-				width: 40%;
-				bottom: 20%;
-				left: 17%;
+				width: 30%;
+				left: -5%;
+				top: 50%;
 				position: absolute;
+				transform: translateX(-205px);
+
 			}
 			.alive-record:hover{
 				 transition: 0.70s;
@@ -87,9 +92,184 @@ body {
 				width: 48%;
 				top: 20%;
 				border-radius: 28px;
+				height: 70%;
 			}
 		}			
 	}
+
+	.eighties{
+		display: flex;
+		flex-direction: row;
+		margin-top: 40%;
+		.sec-one{
+			position: relative;	
+			.decade-eight{
+				font-size: 15em;
+				text-align: center;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+			}
+			.beat-it-record{
+				width: 40%;
+				bottom: 20%;
+				left: 17%;
+				position: absolute;
+			}
+			.beat-it-record:hover{
+				 transition: 0.70s;
+				transform: rotate(720deg);
+			}
+		}
+		.sec-two{
+			position: relative;
+			.tv-three{
+				width: 70%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5%
+			}
+
+			.eighties-video{
+				position: absolute;
+				left: 18%;
+				width: 51%;
+				top: 18%;
+				border-radius: 28px;
+				height: 66%;
+			}
+		}			
+	}
+	
+
+	.nineties{
+		display: flex;
+		flex-direction: row;
+		margin-top: 40%;
+		.sec-one{
+			position: relative;	
+			.decade-nine{
+				font-size: 15em;
+				text-align: center;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+			}
+			.one-more-time-record{
+				width: 40%;
+				bottom: 20%;
+				left: 17%;
+				position: absolute;
+			}
+			.one-more-time-record:hover{
+				 transition: 0.70s;
+				transform: rotate(720deg);
+			}
+		}
+		.sec-two{
+			position: relative;
+			.tv-four{
+				width: 70%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5%
+			}
+
+			.nineties-video{
+				position: absolute;
+				left: 26%;
+				width: 49%;
+				top: 19%;
+				border-radius: 0px;
+			}
+		}			
+	}
+
+	.tens{
+		display: flex;
+		flex-direction: row;
+		margin-top: 40%;
+		.sec-one{
+			position: relative;	
+			.decade-ten{
+				font-size: 15em;
+				text-align: center;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+			}
+			.umbrella-record{
+				width: 40%;
+				bottom: 20%;
+				left: 17%;
+				position: absolute;
+			}
+			.umbrella-record:hover{
+				 transition: 0.70s;
+				transform: rotate(720deg);
+			}
+		}
+		.sec-two{
+			position: relative;
+			.tv-five{
+				width: 70%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5%
+			}
+
+			.tens-video{
+				position: absolute;
+				left: 15%;
+				width: 70%;
+				top: 13%;
+				border-radius: 0px;
+				height: 70%;
+			}
+		}			
+	}
+
+
+	.twenties{
+		display: flex;
+		flex-direction: row;
+		margin-top: 40%;
+		.sec-one{
+			position: relative;	
+			.decade-twenty{
+				font-size: 15em;
+				text-align: center;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+			}
+			.say-so-record{
+				width: 40%;
+				bottom: 20%;
+				left: 17%;
+				position: absolute;
+			}
+			.say-so-record:hover{
+				 transition: 0.70s;
+				transform: rotate(720deg);
+			}
+		}
+		.sec-two{
+			position: relative;
+			.tv-six{
+				width: 70%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5%
+			}
+
+			.twenties-video{
+				position: absolute;
+				left: 15%;
+				width: 70%;
+				top: 9%;
+				border-radius: 0px;
+				height: 70%;
+			}
+		}			
+	}
+	
 	
 
 

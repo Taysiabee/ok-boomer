@@ -63,7 +63,7 @@ body {
 
 body .sixties {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 body .sixties .sec-one {
@@ -78,10 +78,13 @@ body .sixties .sec-one .decade-six {
 }
 
 body .sixties .sec-one .twist-record {
-	width: 50%;
-	bottom: 20%;
-	left: 17%;
+	width: 30%;
+	left: -5%;
+	top: 50%;
 	position: absolute;
+	-webkit-transform: translateX(-205px);
+	    -ms-transform: translateX(-205px);
+	        transform: translateX(-205px);
 }
 
 body .sixties .sec-one .twist-record:hover {
@@ -104,15 +107,16 @@ body .sixties .sec-two .tv {
 
 body .sixties .sec-two .sixties-video {
 	position: absolute;
-	left: 21%;
-	width: 45%;
-	top: 20%;
+	left: 20%;
+	width: 48%;
+	top: 19%;
 	border-radius: 28px;
+	height: 64%;
 }
 
 body .seventies {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-top: 40%;
 }
 
@@ -128,10 +132,13 @@ body .seventies .sec-one .decade-seven {
 }
 
 body .seventies .sec-one .alive-record {
-	width: 40%;
-	bottom: 20%;
-	left: 17%;
+	width: 30%;
+	left: -5%;
+	top: 50%;
 	position: absolute;
+	-webkit-transform: translateX(-205px);
+	    -ms-transform: translateX(-205px);
+	        transform: translateX(-205px);
 }
 
 body .seventies .sec-one .alive-record:hover {
@@ -158,6 +165,210 @@ body .seventies .sec-two .seventies-video {
 	width: 48%;
 	top: 20%;
 	border-radius: 28px;
+	height: 70%;
+}
+
+body .eighties {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40%;
+}
+
+body .eighties .sec-one {
+	position: relative;
+}
+
+body .eighties .sec-one .decade-eight {
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+body .eighties .sec-one .beat-it-record {
+	width: 40%;
+	bottom: 20%;
+	left: 17%;
+	position: absolute;
+}
+
+body .eighties .sec-one .beat-it-record:hover {
+	transition: 0.70s;
+	-webkit-transform: rotate(720deg);
+	    -ms-transform: rotate(720deg);
+	        transform: rotate(720deg);
+}
+
+body .eighties .sec-two {
+	position: relative;
+}
+
+body .eighties .sec-two .tv-three {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+body .eighties .sec-two .eighties-video {
+	position: absolute;
+	left: 18%;
+	width: 51%;
+	top: 18%;
+	border-radius: 28px;
+	height: 66%;
+}
+
+body .nineties {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40%;
+}
+
+body .nineties .sec-one {
+	position: relative;
+}
+
+body .nineties .sec-one .decade-nine {
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+body .nineties .sec-one .one-more-time-record {
+	width: 40%;
+	bottom: 20%;
+	left: 17%;
+	position: absolute;
+}
+
+body .nineties .sec-one .one-more-time-record:hover {
+	transition: 0.70s;
+	-webkit-transform: rotate(720deg);
+	    -ms-transform: rotate(720deg);
+	        transform: rotate(720deg);
+}
+
+body .nineties .sec-two {
+	position: relative;
+}
+
+body .nineties .sec-two .tv-four {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+body .nineties .sec-two .nineties-video {
+	position: absolute;
+	left: 26%;
+	width: 49%;
+	top: 19%;
+	border-radius: 0px;
+}
+
+body .tens {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40%;
+}
+
+body .tens .sec-one {
+	position: relative;
+}
+
+body .tens .sec-one .decade-ten {
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+body .tens .sec-one .umbrella-record {
+	width: 40%;
+	bottom: 20%;
+	left: 17%;
+	position: absolute;
+}
+
+body .tens .sec-one .umbrella-record:hover {
+	transition: 0.70s;
+	-webkit-transform: rotate(720deg);
+	    -ms-transform: rotate(720deg);
+	        transform: rotate(720deg);
+}
+
+body .tens .sec-two {
+	position: relative;
+}
+
+body .tens .sec-two .tv-five {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+body .tens .sec-two .tens-video {
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	top: 13%;
+	border-radius: 0px;
+	height: 70%;
+}
+
+body .twenties {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40%;
+}
+
+body .twenties .sec-one {
+	position: relative;
+}
+
+body .twenties .sec-one .decade-twenty {
+	font-size: 15em;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+body .twenties .sec-one .say-so-record {
+	width: 40%;
+	bottom: 20%;
+	left: 17%;
+	position: absolute;
+}
+
+body .twenties .sec-one .say-so-record:hover {
+	transition: 0.70s;
+	-webkit-transform: rotate(720deg);
+	    -ms-transform: rotate(720deg);
+	        transform: rotate(720deg);
+}
+
+body .twenties .sec-two {
+	position: relative;
+}
+
+body .twenties .sec-two .tv-six {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+body .twenties .sec-two .twenties-video {
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	top: 9%;
+	border-radius: 0px;
+	height: 70%;
 }
 
 /*# sourceMappingURL=main.css.map */
