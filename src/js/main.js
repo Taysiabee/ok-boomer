@@ -51,148 +51,135 @@ let audio = document.querySelector('.song');
  	console.log("audio")
  })
 
-  
-
-
-
-
-
-
+ 
+// -------------------
 
 document.querySelector('.play').addEventListener('click', function() {
 	let tunes = document.querySelector('.bee');
 	tunes.play()
 	
-	
 })
-
 document.querySelector('.pause').addEventListener('click', function() {
 	let tunes = document.querySelector('.bee');
 	tunes.pause()
-	
-
 })
 
 let seventiesVideo = document.querySelector('.seventies-video')
 let tunes = document.querySelector('.bee');
  seventiesVideo.addEventListener("mouseenter", function(event){
  	tunes.play()
- 	
  })
-
   seventiesVideo.addEventListener("mouseleave", function(event){
   	let tunes = document.querySelector('.bee');
  	tunes.pause()
- 	
+ })
+// -------------------
+
+
+document.querySelector('.play').addEventListener('click', function() {
+	let music = document.querySelector('.michael');
+	music.play()
+	
+})
+document.querySelector('.pause').addEventListener('click', function() {
+	let music = document.querySelector('.michael');
+	music.pause()
+})
+
+let eightiesVideo = document.querySelector('.eighties-video')
+let music = document.querySelector('.michael');
+ eightiesVideo.addEventListener("mouseenter", function(event){
+ 	music.play()
+ })
+  eightiesVideo.addEventListener("mouseleave", function(event){
+  	let music = document.querySelector('.michael');
+ 	music.pause()
  })
 
+// -------------------
 
-
-
-
-
-
-
-
-// document.querySelector('.play').addEventListener('click', function() {
-// 	let hit = document.querySelector('.mike');
-// 	hit.play()
+document.querySelector('.play').addEventListener('click', function() {
+	let sound = document.querySelector('.britney');
+	sound.play()
 	
-// })
+})
+document.querySelector('.pause').addEventListener('click', function() {
+	let sound = document.querySelector('.britney');
+	sound.pause()
+})
 
-// document.querySelector('.pause').addEventListener('click', function() {
-// 	let hit = document.querySelector('.mike');
-// 	hit.pause()
+let ninetiesVideo = document.querySelector('.nineties-video')
+let sound = document.querySelector('.britney');
+ ninetiesVideo.addEventListener("mouseenter", function(event){
+ 	sound.play()
+ })
+  ninetiesVideo.addEventListener("mouseleave", function(event){
+  	let sound = document.querySelector('.britney');
+ 	sound.pause()
+ })
+
+  // -------------------
+
+document.querySelector('.play').addEventListener('click', function() {
+	let hit = document.querySelector('.rihana');
+	hit.play()
 	
+})
+document.querySelector('.pause').addEventListener('click', function() {
+	let hit = document.querySelector('.rihana');
+	hit.pause()
+})
 
-// })
+let ohsVideo = document.querySelector('.ohs-video')
+let hit = document.querySelector('.rihana');
+ ohsVideo.addEventListener("mouseenter", function(event){
+ 	hit.play()
+ })
+  ohsVideo.addEventListener("mouseleave", function(event){
+  	let hit = document.querySelector('.rihana');
+ 	hit.pause()
+ })
 
-// let eightiesVideo = document.querySelector('.eighties-video')
-// let hit = document.querySelector('.mike');
-//  eightiesVideo.addEventListener("mouseenter", function(event){
-//  	hit.play()
-
- 	
-//  })
-
-//   eightiesVideo.addEventListener("mouseleave", function(event){
-//   	let hit = document.querySelector('.mike');
-//  	hit.pause()
-
- 	
-//  })
-
-
-
-
-
-
-
-
-
-
-// document.querySelector('.play').addEventListener('click', function() {
-// 	let pop = document.querySelector('.brit');
-// 	pop.play()
+    // -------------------
+document.querySelector('.play').addEventListener('click', function() {
+	let smash = document.querySelector('.bruno');
+	smash.play()
 	
-// })
+})
+document.querySelector('.pause').addEventListener('click', function() {
+	let smash = document.querySelector('.bruno');
+	smash.pause()
+})
 
-// document.querySelector('.pause').addEventListener('click', function() {
-// 	let pop = document.querySelector('.brit');
-// 	pop.pause()
+let tenVideo = document.querySelector('.ten-video')
+let smash = document.querySelector('.bruno');
+ tenVideo.addEventListener("mouseenter", function(event){
+ 	smash.play()
+ })
+  tenVideo.addEventListener("mouseleave", function(event){
+  	let smash = document.querySelector('.bruno');
+ 	smash.pause()
+ })
+
+    // -------------------
+
+
+document.querySelector('.play').addEventListener('click', function() {
+	let vibes = document.querySelector('.dababy');
+	vibes.play()
 	
+})
+document.querySelector('.pause').addEventListener('click', function() {
+	let vibes = document.querySelector('.dababy');
+	vibes.pause()
+})
 
-// })
-
-// let nintiesVideo = document.querySelector('.ninties-video')
-// let pop = document.querySelector('.brit');
-//  nintiesVideo.addEventListener("mouseenter", function(event){
-//  	pop.play()
-//  })
-
-//   nintiesVideo.addEventListener("mouseleave", function(event){
-//   	let pop = document.querySelector('.brit');
-//  	pop.pause()
-
- 	
-//  })
-
-
-
-
-
-
-
-
-
-
-
-
-//   document.querySelector('.play').addEventListener('click', function() {
-// 	let hov = document.querySelector('.rih');
-// 	hov.play()
-	
-	
-// })
-
-// document.querySelector('.pause').addEventListener('click', function() {
-// 	let hov = document.querySelector('.rih');
-// 	hov.pause()
-	
-
-// })
-
-// let ohsVideo = document.querySelector('.ohs-video')
-// let hov = document.querySelector('.rih');
-//  ohsVideo.addEventListener("mouseenter", function(event){
-//  	hov.play()
- 	
-//  })
-
-//   ohsVideo.addEventListener("mouseleave", function(event){
-//   	let hov = document.querySelector('.rih');
-//  	hov.pause()
- 	
-//  })
-
-
+let rockstar = document.querySelector('.rockstar')
+let vibes = document.querySelector('.dababy');
+ rockstar.addEventListener("mouseenter", function(event){
+ 	vibes.play()
+ })
+  rockstar.addEventListener("mouseleave", function(event){
+  	let vibes = document.querySelector('.dababy');
+ 	vibes.pause()
+ })
